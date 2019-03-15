@@ -1,0 +1,45 @@
+.star{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: gray;
+    cursor: pointer;
+    margin:2px;
+    clip-path: polygon(
+        50% 0%,
+        63% 38%,
+        100% 38%,
+        69% 59%,
+        82% 100%,
+        50% 75%,
+        18% 100%,
+        31% 59%,
+        0% 38%,
+        37% 38%
+    );
+}
+.selected{
+    background: red;
+}
+
+.colorList{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: gainsboro;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+.colorBlock{
+    width: 300px;
+    height: 50px;
+    margin: 5px 0px;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color:#fdfdfd;
+}
